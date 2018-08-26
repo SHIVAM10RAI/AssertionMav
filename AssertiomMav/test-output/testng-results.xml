@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case2]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="GroupTest.testCaseOne()[pri:1, instance:pack.GroupTest@4501b7af]" name="testCaseOne" class="pack.GroupTest"/>
+        <method signature="GroupTest.testCaseTwo()[pri:2, instance:pack.GroupTest@4501b7af]" name="testCaseTwo" class="pack.GroupTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="38" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+      <class name="pack.GroupTest">
+        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:pack.GroupTest@4501b7af]" name="testCaseOne" duration-ms="11" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseTwo()[pri:2, instance:pack.GroupTest@4501b7af]" name="testCaseTwo" duration-ms="2" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+      </class> <!-- pack.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

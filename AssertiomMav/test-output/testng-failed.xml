@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack.Test4">
+      <class name="JavaScript.Test1">
         <methods>
-          <include name="Assert3"/>
+          <include name="testGoogle"/>
         </methods>
-      </class> <!-- pack.Test4 -->
+      </class> <!-- JavaScript.Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

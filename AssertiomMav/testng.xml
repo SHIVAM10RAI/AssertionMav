@@ -5,9 +5,12 @@
   <groups>
   <run>
   <include name="Smoke"/>
-  </run></groups>
+	<include name="Regression"/>
+  </run>
+  </groups>
     <classes>
-      <class name="pack.GroupTest"/>
+      <class name="group.GroupTest1"/>
+      <class name="group.GroupTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

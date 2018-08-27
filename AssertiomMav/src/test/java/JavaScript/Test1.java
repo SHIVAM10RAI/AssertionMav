@@ -18,8 +18,11 @@ public class Test1 {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get("https://google.com");
 		WebElement srchTxBx=driver.findElement(By.name("q"));
-		//((JavascriptExecutor)driver).executeScript("arguments", arg1)
-		
+		((JavascriptExecutor)driver).executeScript("arguments[0].value()='"+"Selenium"+"'",srchTxBx);
+		driver.quit();
+		WebElement srchTxBtn=driver.findElement(By.name("btnk"));
+		srchTxBtn.click();
+		driver.quit();
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();", srchTxBtn);
 	}
-
 }

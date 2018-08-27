@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Test Case1]]>
     </line>
     <line>
-      <![CDATA[Test Case2]]>
+      <![CDATA[Test Case1]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="38" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+  <suite name="Suite" duration-ms="140" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
     <groups>
+      <group name="Regression">
+        <method signature="GroupTest.testCaseFour()[pri:4, instance:group.GroupTest@3ffc5af1]" name="testCaseFour" class="group.GroupTest"/>
+        <method signature="GroupTest.testCaseTwo()[pri:2, instance:group.GroupTest@3ffc5af1]" name="testCaseTwo" class="group.GroupTest"/>
+        <method signature="GroupTest1.testCaseFour()[pri:4, instance:group.GroupTest1@5b275dab]" name="testCaseFour" class="group.GroupTest1"/>
+        <method signature="GroupTest1.testCaseThree()[pri:3, instance:group.GroupTest1@5b275dab]" name="testCaseThree" class="group.GroupTest1"/>
+        <method signature="GroupTest1.testCaseTwo()[pri:2, instance:group.GroupTest1@5b275dab]" name="testCaseTwo" class="group.GroupTest1"/>
+      </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="GroupTest.testCaseOne()[pri:1, instance:pack.GroupTest@4501b7af]" name="testCaseOne" class="pack.GroupTest"/>
-        <method signature="GroupTest.testCaseTwo()[pri:2, instance:pack.GroupTest@4501b7af]" name="testCaseTwo" class="pack.GroupTest"/>
+        <method signature="GroupTest.testCaseOne()[pri:1, instance:group.GroupTest@3ffc5af1]" name="testCaseOne" class="group.GroupTest"/>
+        <method signature="GroupTest.testCaseThree()[pri:3, instance:group.GroupTest@3ffc5af1]" name="testCaseThree" class="group.GroupTest"/>
+        <method signature="GroupTest1.testCaseOne()[pri:1, instance:group.GroupTest1@5b275dab]" name="testCaseOne" class="group.GroupTest1"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="38" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
-      <class name="pack.GroupTest">
-        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:pack.GroupTest@4501b7af]" name="testCaseOne" duration-ms="11" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+    <test name="Test" duration-ms="140" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
+      <class name="group.GroupTest">
+        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:group.GroupTest@3ffc5af1]" name="testCaseOne" duration-ms="5" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case1]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCaseOne -->
-        <test-method status="PASS" signature="testCaseTwo()[pri:2, instance:pack.GroupTest@4501b7af]" name="testCaseTwo" duration-ms="2" started-at="2018-08-26T09:57:50Z" finished-at="2018-08-26T09:57:50Z">
+      </class> <!-- group.GroupTest -->
+      <class name="group.GroupTest1">
+        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:group.GroupTest1@5b275dab]" name="testCaseOne" duration-ms="33" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case2]]>
+              <![CDATA[Test Case1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testCaseTwo -->
-      </class> <!-- pack.GroupTest -->
+        </test-method> <!-- testCaseOne -->
+      </class> <!-- group.GroupTest1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,46 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
   <reporter-output>
     <line>
-      <![CDATA[Test Case1]]>
+      <![CDATA[Test Case8]]>
     </line>
     <line>
-      <![CDATA[Test Case1]]>
+      <![CDATA[Test Case9]]>
+    </line>
+    <line>
+      <![CDATA[Test Case7]]>
+    </line>
+    <line>
+      <![CDATA[Test Case2]]>
+    </line>
+    <line>
+      <![CDATA[Test Case4]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="140" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
+  <suite name="Suite" duration-ms="72" started-at="2018-08-27T13:43:09Z" finished-at="2018-08-27T13:43:10Z">
     <groups>
       <group name="Regression">
-        <method signature="GroupTest.testCaseFour()[pri:4, instance:group.GroupTest@3ffc5af1]" name="testCaseFour" class="group.GroupTest"/>
-        <method signature="GroupTest.testCaseTwo()[pri:2, instance:group.GroupTest@3ffc5af1]" name="testCaseTwo" class="group.GroupTest"/>
-        <method signature="GroupTest1.testCaseFour()[pri:4, instance:group.GroupTest1@5b275dab]" name="testCaseFour" class="group.GroupTest1"/>
-        <method signature="GroupTest1.testCaseThree()[pri:3, instance:group.GroupTest1@5b275dab]" name="testCaseThree" class="group.GroupTest1"/>
-        <method signature="GroupTest1.testCaseTwo()[pri:2, instance:group.GroupTest1@5b275dab]" name="testCaseTwo" class="group.GroupTest1"/>
+        <method signature="GroupTest.testCaseFour()[pri:4, instance:group.GroupTest@635eaaf1]" name="testCaseFour" class="group.GroupTest"/>
+        <method signature="GroupTest.testCaseTwo()[pri:2, instance:group.GroupTest@635eaaf1]" name="testCaseTwo" class="group.GroupTest"/>
+        <method signature="GroupTest1.testCaseEight()[pri:0, instance:group.GroupTest1@21de60b4]" name="testCaseEight" class="group.GroupTest1"/>
+        <method signature="GroupTest1.testCaseNine()[pri:0, instance:group.GroupTest1@21de60b4]" name="testCaseNine" class="group.GroupTest1"/>
+        <method signature="GroupTest1.testCaseSeven()[pri:0, instance:group.GroupTest1@21de60b4]" name="testCaseSeven" class="group.GroupTest1"/>
       </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="GroupTest.testCaseOne()[pri:1, instance:group.GroupTest@3ffc5af1]" name="testCaseOne" class="group.GroupTest"/>
-        <method signature="GroupTest.testCaseThree()[pri:3, instance:group.GroupTest@3ffc5af1]" name="testCaseThree" class="group.GroupTest"/>
-        <method signature="GroupTest1.testCaseOne()[pri:1, instance:group.GroupTest1@5b275dab]" name="testCaseOne" class="group.GroupTest1"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="140" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
+    <test name="Test" duration-ms="72" started-at="2018-08-27T13:43:09Z" finished-at="2018-08-27T13:43:10Z">
       <class name="group.GroupTest">
-        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:group.GroupTest@3ffc5af1]" name="testCaseOne" duration-ms="5" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
+        <test-method status="PASS" signature="testCaseTwo()[pri:2, instance:group.GroupTest@635eaaf1]" name="testCaseTwo" duration-ms="2" started-at="2018-08-27T13:43:10Z" finished-at="2018-08-27T13:43:10Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case1]]>
+              <![CDATA[Test Case2]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testCaseOne -->
+        </test-method> <!-- testCaseTwo -->
+        <test-method status="PASS" signature="testCaseFour()[pri:4, instance:group.GroupTest@635eaaf1]" name="testCaseFour" duration-ms="2" started-at="2018-08-27T13:43:10Z" finished-at="2018-08-27T13:43:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseFour -->
       </class> <!-- group.GroupTest -->
       <class name="group.GroupTest1">
-        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:group.GroupTest1@5b275dab]" name="testCaseOne" duration-ms="33" started-at="2018-08-27T08:59:38Z" finished-at="2018-08-27T08:59:38Z">
+        <test-method status="PASS" signature="testCaseEight()[pri:0, instance:group.GroupTest1@21de60b4]" name="testCaseEight" duration-ms="14" started-at="2018-08-27T13:43:10Z" finished-at="2018-08-27T13:43:10Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case1]]>
+              <![CDATA[Test Case8]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testCaseOne -->
+        </test-method> <!-- testCaseEight -->
+        <test-method status="PASS" signature="testCaseNine()[pri:0, instance:group.GroupTest1@21de60b4]" name="testCaseNine" duration-ms="3" started-at="2018-08-27T13:43:10Z" finished-at="2018-08-27T13:43:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseNine -->
+        <test-method status="PASS" signature="testCaseSeven()[pri:0, instance:group.GroupTest1@21de60b4]" name="testCaseSeven" duration-ms="2" started-at="2018-08-27T13:43:10Z" finished-at="2018-08-27T13:43:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseSeven -->
       </class> <!-- group.GroupTest1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

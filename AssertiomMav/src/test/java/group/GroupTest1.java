@@ -5,28 +5,28 @@ import org.testng.annotations.Test;
 
 public class GroupTest1 {
 	
-	@Test(priority=1,groups="Smoke")
+	@Test(groups="Smoke")
 	
-	public void testCaseOne() {
+	public void testCaseSix() {
 		
-	Reporter.log("Test Case1",true);
+	Reporter.log("Test Case6",true);
 }
-	@Test(priority=2,groups="Regression")
+	@Test(groups="Regression")
 	
-	public void testCaseTwo() {
+	public void testCaseSeven() {
 		
-	Reporter.log("Test Case2",true);
+	Reporter.log("Test Case7",true);
 }
-	@Test(priority=3,groups="Regression")
+	@Test(groups="Regression")
 	
-	public void testCaseThree() {
+	public void testCaseEight() {
 		
-	Reporter.log("Test Case3",true);
+	Reporter.log("Test Case8",true);
 }
-	@Test(priority=4,groups="Regression")
+	@Test(groups="Regression")
 	
-	public void testCaseFour() {
+	public void testCaseNine() {
 		
-	Reporter.log("Test Case4",true);
+	Reporter.log("Test Case9",true);
 }
 }
